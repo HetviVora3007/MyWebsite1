@@ -205,3 +205,40 @@ html{scroll-behavior:smooth}
     transition-duration: 0.4s;
     cursor: pointer;
 }
+@media screen and (max-width: 480px){
+    .container1,.box2,.container3{
+        flex-direction: column;
+    }
+    .img1,.container3left,.container3right{
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+    .h1{
+        width: 100%;
+    }
+    .box2right p{
+        width: 80%;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .para{
+        width: 90%;
+    }
+    .box2left,.box2right{
+        width: 100%;
+    }
+    .box2{
+        height: fit-content;
+    }
+    .navbar{
+        display: none;
+    }
+    .container3container{
+        width: 80%;
+    }
+}
